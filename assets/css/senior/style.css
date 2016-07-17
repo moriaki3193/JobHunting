@@ -21,10 +21,10 @@
   text-align: center;
 }
 
-.ui.segment {
-  height: 190px;
+.video {
+  width: 100%;
 }
 
-.content {
-  float: right;
+.float-free {
+  clear: both;
 }
