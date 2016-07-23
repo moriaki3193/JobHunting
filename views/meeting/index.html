@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
+    <!-- 細かいレイアウトの調整は、下のmeeting/style.cssで行ってください -->
     <link rel="stylesheet" href="../../assets/css/meeting/style.css">
     <link rel="stylesheet" href="../../assets/css/pkg/semantic.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -15,8 +16,36 @@
     <title>就活座談会</title>
   </head>
   <body>
-    <div class="ui container">
-      <h1 id="title">就活座談会</h1>
-    </div>
+    <div class="wrapper">
+      <div class="ui container">
+        <div class="ui fixed borderless main menu">
+          <div class="ui text container">
+            <a href="../index.html" class="header item">
+              <img class="logo" src="../../assets/images/nav/icon.png" style="margin-right: 1em;">就活ページ
+            </a>
+            <div class="ui right floated dropdown item">
+              このDropにいろいろ
+              <i class="dropdown icon"></i>
+              <div class="menu transition hidden">
+                <div class="item"><a href="../index.html">ホーム</a></div>
+                <div class="divider"></div>
+                <div class="item">
+                  Contents
+                  <i class="dropdown icon"></i>
+                  <div class="menu">
+                    <a class="item" href="../senior/index.html">18期生の就活</a>
+                    <a class="item" href="../meeting/index.html">就活座談会</a>
+                    <a class="item" href="../tools/index.html">就活便利ツール</a>
+                    <a class="item" href="../recruit/index.html">リクルート</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ここから下のdivの中をいじってください -->
+        <div class="ui main text container">
+          <h1 id="title">就活座談会</h1>
+        </div>
   </body>
 </html>
